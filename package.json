@@ -1,0 +1,30 @@
+{
+  "name": "simple-uploader",
+  "version": "1.0.2",
+  "description": "",
+  "main": "lib/index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "publishConfig": {
+    "registry": "http://xx.xx.xx.xx:4873"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "axios": "^0.19.2",
+    "crypto-js": "^4.0.0",
+    "dateformat": "^3.0.3"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^8.1.3"
+  }
+}
